@@ -16,4 +16,6 @@
 body {
    background-image: url("https://78.media.tumblr.com/tumblr_m7zcecY8Bs1rudfvso1_500.jpg");
    background-color: #cccccc;
+   background-repeat: no-repeat;
+    background-size: cover;
 }
