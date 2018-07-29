@@ -14,8 +14,31 @@
  *= require_self
  */
 body {
-   background-image: url("https://78.media.tumblr.com/tumblr_m7zcecY8Bs1rudfvso1_500.jpg");
-   background-color: #cccccc;
-   background-repeat: no-repeat;
-    background-size: cover;
+   background-color: black;
+}
+
+div {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gif {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background: url(https://media.giphy.com/media/BMzQw2kxrgBUH9N82Q/giphy.gif) 0 0 no-repeat;
+  background-size: 100%;
+  animation: like-gif 4s infinite both;
+}
+
+
+@keyframes like-gif {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
