@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+body {
+   background-image: url("https://78.media.tumblr.com/tumblr_m7zcecY8Bs1rudfvso1_500.jpg");
+   background-color: #cccccc;
+}
